@@ -1,0 +1,151 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Montserrat", sans-serif;
+}
+
+div {
+    width: 100vw;
+    height: 100vh;
+}
+
+.container-west {
+    display: inline-block;
+    width: 50vw;
+    height: 100%;
+}
+
+header {
+    margin: 44px 0 0 76px;
+}
+
+a {
+    font-weight: 600;
+    font-size: 24px;
+    color: #989D9C;
+    margin-right: 23px;
+    cursor: pointer;
+}
+
+a:hover {
+    opacity: 0.6;
+}
+
+a:active {
+    opacity: 0.8;
+}
+
+.button-west {
+    width: 130px;
+    height: 41px;
+    border-radius: 50px;
+    background: #665AE1;
+    font-weight: 600;
+    font-size: 24px;
+    color: #FFFFFF;
+    border: none;
+    cursor: pointer;
+}
+
+
+img {
+    margin: 144PX 0 0 125PX;
+}
+
+.container-este {
+    display: inline-block;
+    width: 50vw;
+    height: 100%;
+    position: absolute;
+    margin-top: 217px;
+
+}
+
+h1 {
+    font-weight: 900;
+    font-size: 100px;
+    color: #515151;
+
+}
+
+h2 {
+    font-weight: 500;
+    font-size: 58px;
+    color: #515151;
+}
+
+p {
+    font-weight: 400;
+    font-size: 24px;
+    width: 515px;
+    color: #848484;
+    margin: 32px 0 65px 0;
+}
+
+.button-este {
+    width: 239px;
+    height: 64px;
+    border-radius: 30.5px;
+    background: #ADFF00;
+    border: none;
+    font-weight: 700;
+    font-size: 28px;
+    color: #000000;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    cursor: pointer;
+}
+
+button:hover {
+    opacity: 0.8;
+}
+
+button:active {
+    opacity: 0.6;
+}
+
+
+
+
+@media screen and (max-width:900px) {
+    .container-west {
+        width: 100vw;
+        height: 50vh;
+        font-size: 30px;
+        margin-bottom: 17px;
+    }
+
+    header {
+
+        display: none;
+    }
+
+    img {
+        width: 354px;
+        height: 317px;
+        margin: 149px auto;
+        display: block;
+    }
+
+    .container-este {
+        display: block;
+        width: 100vw;
+        height: 50vh;
+        margin: 24px auto;
+        text-align: center;
+    }
+
+    h1 {
+        font-size: 50px;
+    }
+
+    h2 {
+        font-size: 30px;
+        margin-bottom: 17px;
+    }
+
+    p {
+        display: none;
+    }
+
+}
