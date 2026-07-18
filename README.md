@@ -11,5 +11,10 @@
    <li>Media Queries: Usamos regras específicas para adaptar o design em diferentes tamanhos de tela, celular e desktop.</li>
 </ul>
 
+<h3>Resultado do projeto</h3>
+
+<img src="https://raw.githubusercontent.com/ArielsonSH/positive-congratulation/09301c8d1b4c36662bae1efbd42398172555aeb0/img/positive-congratulation-desktop.png" />
+<img src="https://raw.githubusercontent.com/ArielsonSH/positive-congratulation/09301c8d1b4c36662bae1efbd42398172555aeb0/img/positive-congratulation%2C%20mobile.png"/>
+
 
 
